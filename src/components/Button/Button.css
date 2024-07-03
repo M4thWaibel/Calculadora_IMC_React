@@ -1,0 +1,32 @@
+:root{
+
+    --bg-primary: #323841;
+    --bg-secondary: #3c3e44;
+
+    --font-color: #f6f2ee;
+
+    --color-one: #7b8593;
+    --color-two: #8da9c4;
+    --color-three: #683536;
+
+}
+
+button{
+    font-style: bold;
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    background-color: #444;
+    border: none;
+    color: var(--font-color);
+    cursor: pointer;
+    opacity: 1;
+    flex: 1;
+}
+
+button:hover{
+    opacity: 0.5;
+}
+
+#clear_btn{
+    background-color: var(--color-three);
+}

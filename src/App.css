@@ -1,0 +1,18 @@
+:root{
+
+  --bg-primary: #323841;
+  --bg-secondary: #3c3e44;
+
+  --font-color: #f6f2ee;
+
+  --color-one: #7b8593;
+  --color-two: #8da9c4;
+
+}
+
+.container{
+  min-width: 400px;
+  min-height: 400px;
+  background-color: var(--bg-secondary);
+  padding: 2rem;
+}
